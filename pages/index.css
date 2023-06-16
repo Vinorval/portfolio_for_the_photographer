@@ -84,6 +84,10 @@
                 radial-gradient(564px 494px at 94% 5%, rgba(58, 95, 86, 0.55) 0%, rgba(58, 95, 86, 0) 100%);
 }
 
+.background-gradient_place_services {
+    background: radial-gradient(500px 500px at 0% 115%, rgba(58, 95, 86, 0.55) 0%, rgba(58, 95, 86, 0) 100%);
+}
+
 .background-gradient_place_contact {
     background: radial-gradient(500px 500px at 25% 130%, rgba(184, 125, 88, 0.35) 0%, rgba(184, 125, 88, 0) 100%);
 }
@@ -120,6 +124,66 @@
     border-radius: 34px;
     width: 552px;
     object-fit: none;
+}
+
+.services {
+    padding: 100px 0;
+    display: grid;
+    justify-items: center;
+    position: relative;
+}
+
+.services__title {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.services__description {
+    max-width: 580px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+}
+
+.services__list {
+    margin: 40px auto 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+    row-gap: 16px;
+}
+
+.service {
+    padding: 30px;
+    width: 320px;
+    height: 240px;
+    display: grid;
+    gap: 15px;
+    border-radius: 16px;
+    background-color: #F4F3F0;
+}
+
+.service__name {
+    margin: 0;
+}
+
+.service__description {
+    margin: 0;
+    color: #000;
+}
+
+.service__link-more {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.service__arrow {
+    width: 20px;
+    height: 10px;
 }
 
 .contact {
