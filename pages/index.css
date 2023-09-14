@@ -3,6 +3,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+    color: #3A5F56;
     margin: 0;
 }
 
@@ -18,7 +19,7 @@
 .header__logo {
     width: 113px;
     height: 30px;
-    margin: auto 0 auto 16px;
+    margin: auto 0;
 }
 
 .header__menu {
@@ -39,8 +40,6 @@
 }
 
 .header__link {
-    line-height: 16px;
-    color: #3A5F56;
     padding-right: 10px;
 }
 
@@ -69,6 +68,54 @@
     border-radius: 10px;
     background-color: white;
     min-width: 20px;
+}
+
+.background-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.background-gradient_place_promo {
+    background: radial-gradient(723px 813px at -5% 135%, rgba(184, 125, 88, 1) 0%, rgba(184, 125, 88, 0) 100%),
+                radial-gradient(564px 494px at 94% 5%, rgba(58, 95, 86, 0.55) 0%, rgba(58, 95, 86, 0) 100%);
+}
+
+.promo {
+    margin: auto;
+    background-color: #F4F3F0;
+    height: 970px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.promo__block-text {
+    max-width: 583px;
+    margin-right: 65px;
+}
+
+.promo__title {
+    font-size: 48px;
+}
+
+.promo__button-more {
+    color: #fff;
+    border: none;
+    background-color: #3A5F56;
+    border-radius: 6px;
+    width: 118px;
+    height: 44px;
+}
+
+.promo__photo {
+    border-radius: 34px;
+    width: 552px;
+    object-fit: none;
 }
 
 .contact {
