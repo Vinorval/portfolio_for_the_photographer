@@ -88,6 +88,10 @@
     background: radial-gradient(500px 500px at 0% 115%, rgba(58, 95, 86, 0.55) 0%, rgba(58, 95, 86, 0) 100%);
 }
 
+.background-gradient_place_store {
+    background: radial-gradient(500px 500px at 106% 121%, rgba(219, 52, 59, 1) 0%, rgba(219, 52, 59, 0) 100%);
+}
+
 .background-gradient_place_contact {
     background: radial-gradient(500px 500px at 25% 130%, rgba(184, 125, 88, 0.35) 0%, rgba(184, 125, 88, 0) 100%);
 }
@@ -185,6 +189,57 @@
 .service__arrow {
     width: 20px;
     height: 10px;
+}
+
+.store {
+    position: relative;
+    background-color: #F4F3F0;
+    padding: 100px 0;
+    display: grid;
+    justify-items: center;
+    gap: 16px;
+}
+
+.store__title {
+    margin: 0;
+    color: #DB343B;
+    font-size: 32px;
+}
+
+.store__description {
+    margin: 0;
+    max-width: 600px;
+    color: black;
+}
+
+.store__list-preset {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 1200px;
+    list-style-type: none;
+    margin-top: 30px;
+    gap: 16px;
+}
+
+.preset {
+    background-color: white;
+    min-height: 440px;
+    border-radius: 0 0 16px 16px;
+    width: 380px;
+}
+
+.preset__img {
+    width: 100%;
+}
+
+.preset__name {
+    font-size: 24px;
+    margin: 30px 16px 16px;
+}
+
+.preset__text {
+    margin: 0 16px;
 }
 
 .contact {
